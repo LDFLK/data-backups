@@ -31,4 +31,5 @@ Data backup from LDF Workloads in OpenGIN
 
 ## Nexoan
 
+The data backup script can be found in [Nexoan](https://github.com/LDFLK/nexoan/blob/main/deployment/development/init.sh)
 
