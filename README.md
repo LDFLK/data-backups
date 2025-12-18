@@ -5,31 +5,22 @@ Data backup from LDF Workloads in OpenGIN
 
 ```
 .
-├── nexoan
-│   ├── scripts
-│   │   └── version
-│   │       └── 0.0.1
-│   │           └── insert_data.py
-│   └── version
-│       ├── 0.0.1
-│       │   ├── development
-│       │   │   ├── mongodb
-│       │   │   │   └── nexoan.tar.gz
-│       │   │   ├── neo4j
-│       │   │   │   └── neo4j.dump
-│       │   │   └── postgres
-│       │   │       └── nexoan.tar.gz
-│       │   ├── production
-│       │   │   ├── mongodb
-│       │   │   └── neo4j
-│       │   └── staging
-│       │       ├── mongodb
-│       │       └── neo4j
-│       └── README.md
+├── opengin
+│   ├── development
+│   │   ├── mongodb
+│   │   │   └── opengin.tar.gz
+│   │   ├── neo4j
+│   │   │   └── neo4j.dump
+│   │   └── postgres
+│   │       └── opengin.tar.gz
+│   └── scripts
+│       └── insert_data.py
 └── README.md
 ```
 
-## Nexoan
+Note: The branch name contains the version number (e.g., `release-0.0.1`).
 
-The data backup script can be found in [Nexoan](https://github.com/LDFLK/nexoan/blob/main/deployment/development/init.sh)
+## OpenGIN
+
+A sample data insertion script can be found in the `scripts` folder.
 
