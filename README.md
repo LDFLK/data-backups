@@ -22,5 +22,5 @@ Note: The branch name contains the version number (e.g., `release-0.0.1`).
 
 ## OpenGIN
 
-The data backup script can be found in the `scripts` folder.
+A sample data insertion script can be found in the `scripts` folder.
 
